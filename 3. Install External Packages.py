@@ -10,7 +10,7 @@ import requests as REQUEST
 # print(REQUEST.status_codes)
 
 url = 'https://api.quotable.io/random'
-response = REQUEST.get(url = url)
+response = REQUEST.get(url)
 data = response.json()
 print(data)
 print(data['author'])
